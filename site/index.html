@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" /><link rel="canonical" href="https://example.com/" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>InterConnect</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Home";
+        var mkdocs_page_input_path = "index.md";
+        var mkdocs_page_url = "/";
+      </script>
+    
+    <script src="js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> InterConnect
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href=".">Home</a>
+    <ul class="current">
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">InterConnect</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Home</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <p>This is a public Wiki page for the InterConnect project. It lists the main technical results of the project and all resources that are needed for integrators to become part of the existing InterConnect semantically interoperable ecosystems, or build their own interoperable solutions.</p>
+<p>[[<em>TOC</em>]]</p>
+<h1 id="project-goals">Project goals</h1>
+<p><span dir="">Energy and IoT domain convergence through cross-domain semantic interoperability is at the forefront of the InterConnect project.</span></p>
+<p>The project aims to establish interoperability framework validating semantic interoperability based on SAREF ontology.</p>
+<p>The project will produce innovative, user centric energy and non-energy services.</p>
+<p>The technological approaches will be validated in 7 large scale pilots in Belgium, France, Germany, Greece, Portugal and The Netherlands also including an overarching use case across all pilots.</p>
+<h1 id="project-organization">Project Organization</h1>
+<p>Organization of the project work packages and consortium can be seen <a href="https://interconnectproject.eu/consortium/#structure">here</a>.</p>
+<h1 id="cascade-funding-opportunities">Cascade Funding Opportunities</h1>
+<p>Here you can find the latest information about the project funding opportunities for European SMEs and Startups: <a href="https://interconnect-opencalls.fundingbox.com/">https://interconnect-opencalls.fundingbox.com/</a></p>
+<h1 id="project-outcomes-and-kers">Project outcomes and KERs</h1>
+<p>Here we list projects key exploitable results (KER) and outcomes that can be used by the wider public. Each KER has its own sub-section including figures, short introductory text and links towards detailed technical documentation, guidelines and software artefacts. The listed KERs are available for 3rd part integrators as complete set of enablers for joining the existing or building the new semantically interoperable ecosystems.</p>
+<h2 id="interconnect-ontology">InterConnect Ontology</h2>
+<p>The starting point is the ETSI SAREF or Smart Applications Reference ontology with its distributions for energy and buildings.</p>
+<p>The project extends this ontology family with concepts specific to the cross-domain semantic interoperability requirements of the project.</p>
+<p>So we have extensions for representing the user information and profiles, Device and sensor information and profiles, forecast and flexibility information which are very important in the scope of the project and finally connection information.</p>
+<p>The project also uses other available ontologies for measurements, time representation and geo locations.</p>
+<p>This document introduces the ontologies that have been developed in the context of the InterConnect project to cope with the variety of use cases and services implemented by the Interconnect large scale pilots. According to ontology engineering best practices, the Interconnect ontologies reuse already existing ontologies and, in particular, they extend the SAREF suite of ontologies promoted and maintained by ETSI.</p>
+<p>Fig. 1- <em>Overview of InterConnect ontologies</em> in relation to SAREF and other existing ontologies</p>
+<p><img alt="Ontologies_overview_v2" src="uploads/c99f9d492d48364d2d398389de151f41/Ontologies_overview_v2.png" /></p>
+<p><strong>External Ontologies</strong></p>
+<p>Reuse of existing models is one of the pillars of the semantic web and linked data modelling paradigm. In the subsequent table, we provide a visual overview of the other external ontologies and data models that we have reused, in addition to SAREF, as basis for the InterConnect ontologies.</p>
+<p>Table 1 – <em>Prefixes and namespaces</em> of the <em>external</em> ontologies reused by InterConnect
+| Prefix | Namespace | Main concepts |
+|--------|-----------|---------------|
+| foaf | <a href="http://xmlns.com/foaf/0.1/">http://xmlns.com/foaf/0.1/</a> | Agent |
+| geo | <a href="http://www.w3.org/2003/01/geo/wgs84_pos#">http://www.w3.org/2003/01/geo/wgs84_pos#</a> | Spatial Thing, geo coordinates |
+| geosp | <a href="http://www.opengis.net/ont/geosparql#">http://www.opengis.net/ont/geosparql#</a> | Geographical Feature |
+| schema | <a href="https://schema.org/">https://schema.org/</a> | Address, Countries, Postal Codes |
+| om | <a href="http://www.ontology-of-units-of-measure.org/resource/om-2/">http://www.ontology-of-units-of-measure.org/resource/om-2/</a> | Quantity, Unit, Measure |
+| saref | <a href="https://saref.etsi.org/core/">https://saref.etsi.org/core/</a> | Device, Function, Command, State, Measurement, Unit of Measure, Feature of Interest |
+| s4bldg | <a href="https://saref.etsi.org/saref4bldg/">https://saref.etsi.org/saref4bldg/</a> | Building, Building Space, Building Object |
+| s4city | <a href="https://saref.etsi.org/saref4ener/">https://saref.etsi.org/saref4ener/</a> | Power Profile, Alternatives, Power Sequence, Slot |
+| s4ener | <a href="https://saref.etsi.org/saref4city/">https://saref.etsi.org/saref4city/</a> | Facility, Administrative Area, City Object |
+| time | <a href="http://www.w3.org/2006/time#">http://www.w3.org/2006/time#</a> | Instant, Interval, Duration |</p>
+<p><strong>InterConnect Ontologies</strong></p>
+<p>Within the framework of InterConnect project, the following nine ontologies have been modeled. Their prefixes and namespaces are presented hereunder.</p>
+<p>Table 2 – <em>Prefixes and namespaces</em> of the InterConnect ontologies
+| Prefix | Namespace | Main concepts |
+|--------|-----------|---------------|
+| ic-data | <a href="http://ontology.tno.nl/interconnect/datapoint#">http://ontology.tno.nl/interconnect/datapoint#</a> | Datapoint, TimeSeries, Message, Utility Purpose |
+| ic-dev | <a href="http://ontology.tno.nl/interconnect/device#">http://ontology.tno.nl/interconnect/device#</a> | Device, State, Function |
+| ic-flex | <a href="http://ontology.tno.nl/interconnect/flexibility#">http://ontology.tno.nl/interconnect/flexibility#</a> | Flex Offer, Flexibility Source, Control Type, Power Envelope |
+| ic-fc | <a href="http://ontology.tno.nl/interconnect/forecast#">http://ontology.tno.nl/interconnect/forecast#</a> | Forecast, Point Forecast, Stochastic Forecast (Gaussian, Quantile, Trajectory), Gaussian Data Point |
+| ic-inc | <a href="http://ontology.tno.nl/interconnect/incentivetable#">http://ontology.tno.nl/interconnect/incentivetable#</a> | Incentive Table, Incentive Tiers, Scope and Type |
+| ic-pwlm | <a href="http://ontology.tno.nl/interconnect/powerlimit#">http://ontology.tno.nl/interconnect/powerlimit#</a> | Power Limit (Nominal, Contractual and Failsafe) |
+| ic-tplg | <a href="http://ontology.tno.nl/interconnect/topology#">http://ontology.tno.nl/interconnect/topology#</a> | Topological Location, Grid Segment, Market Segment, Regulation Zone, Electrical Phases |
+| ic-uom | <a href="http://ontology.tno.nl/interconnect/units#">http://ontology.tno.nl/interconnect/units#</a> | Additional Units of Measure (not considered yet in SAREF) |
+| ic-user | <a href="http://ontology.tno.nl/interconnect/user#">http://ontology.tno.nl/interconnect/user#</a> | User, User Profile, Preference, Priority, Interest, Activity, Time, Location |</p>
+<p>More information about the InterConnect ontologies can be found at the following <em>Individual pages</em>.</p>
+<ol>
+<li><a href="https://gitlab.inesctec.pt/interconnect-public/ontology/-/wikis/ic-data">Datapoint, Timeseries and Message (ic-data)</a></li>
+<li><a href="https://gitlab.inesctec.pt/interconnect-public/ontology/-/wikis/ic-fc">Forecast (ic-fc)</a></li>
+<li><a href="https://gitlab.inesctec.pt/interconnect-public/ontology/-/wikis/ic-inc">Incentive Table (ic-inc)</a></li>
+<li><a href="https://gitlab.inesctec.pt/interconnect-public/ontology/-/wikis/ic-pwlm">Power Limit (ic-pwlm)</a></li>
+<li><a href="https://gitlab.inesctec.pt/interconnect-public/ontology/-/wikis/ic-user">User (ic-user)</a></li>
+<li><a href="https://gitlab.inesctec.pt/interconnect-public/ontology/-/wikis/ic-flex">Flexibility (ic-flex)</a></li>
+<li><a href="https://gitlab.inesctec.pt/interconnect-public/ontology/-/wikis/ic-uom">Units of Measure (ic-uom)</a></li>
+<li><a href="https://gitlab.inesctec.pt/interconnect-public/ontology/-/wikis/ic-tplg">Topology (ic-tplg)</a></li>
+<li><a href="https://gitlab.inesctec.pt/interconnect-public/ontology/-/wikis/ic-dev">Device and sensor (ic-dev)</a></li>
+<li><a href="https://gitlab.inesctec.pt/interconnect-public/ontology/-/wikis/ic-s2">S2 standard (ic-s2)</a></li>
+</ol>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/ontology">InterConnect Ontology repository</a></p>
+<h2 id="interconnect-interoperability-framework">InterConnect Interoperability Framework</h2>
+<p>The InterConnect delivers an Interoperability Framework capable of bridging the integration gaps “within” and “between” the IoT and the energy domains.</p>
+<p>The Interoperability Framework comprises:</p>
+<ul>
+<li><strong>Semantic interoperability layer</strong> (using InterConnect ontology over SAREF) based on distributed enablers interconnecting all resources, platforms and services and enabling them to exchange data and instructions in a uniform and secure manner while relying on widely adopted interfacing technology (RESTful). Exchanged data is not stored or processed anywhere in between communicating parties.</li>
+<li><strong>Service Store</strong> a catalogue of all interoperable services, including knowledge exploring capabilities, service testing sandbox and automated interoperability compliance tests, streamline onboarding of 3rd parties’ services and systems to become part of the InterConnect ecosystem ensuring growth of the interoperable ecosystems and creation of new ones.</li>
+<li><strong>DLT based P2P marketplace enablers</strong> allowing community-based energy and data trading use cases to be implemented in a way interoperable with project’s ecosystem.</li>
+<li>Configurable <strong>access control and knowledge handling procedures</strong> so that stakeholders can maintain business logic behind their services.</li>
+<li>A <strong>methodology</strong> for building semantically interoperable ecosystem by instantiating and configuring Interoperability Framework enablers within and among digital platforms and services comprising the interoperable ecosystem.</li>
+</ul>
+<p>The Interoperability Framework provides different means for instantiation from centrally hosted facilitator to distributed framework maintained by interoperable ecosystem stakeholders. The result is enabling components (services, devices, digital platforms) to interact with each other without having to know each other’s local native API, but purely based on the knowledge of ontologies and what ontology (category) a component belongs to (e.g., forecaster service). Finally, the knowledge-centric interface made available by the Interoperability Framework, based on SAREF, becomes the interoperable and common vision that links all stakeholders in InterConnect, while not limiting the expressiveness nor the diversity of each party.</p>
+<p><em>High level architecture of the InterConnect Interoperability Framework:</em></p>
+<p><img alt="Picture1" src="uploads/4ab71303f55008586f68a46083605833/Picture1.png" /></p>
+<p><em>Levels of interoperability provided by the Interoperability Framework:</em></p>
+<p><img alt="IF_architecture_SGAM" src="uploads/ab0d232e6621bed46498f0a55831367c/IF_architecture_SGAM.png" /></p>
+<h3 id="service-store">Service Store</h3>
+<p><span dir="">As one of the main IC Interoperability Framework tools, the IC service store will provide a single stop for all providers and adopters of interoperable services from energy and non-energy domains. The service store is conceptualized as a web service with its front-end and back-end modules and processes. The main objective is to enable building of the InterConnect ecosystem of service providers and adopters by allowing them to register new interoperable services and browse existing ones to identify services best suited for the challenge at hand and get all necessary information for accessing and properly utilizing selected services.</span></p>
+<p><a href="https://store.interconnectproject.eu/ServiceStore/#/auth/login?returnUrl=%2Fdashboard%2Fhome">Service Store web application</a></p>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/service-store-backend">Service store backend source code</a></p>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/service-store-frontend">Service store frontend source code</a></p>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/service-store-frontend/-/wikis/home">Service store documentation</a></p>
+<h3 id="semantic-interoperability-layer-knowledge-engine">Semantic Interoperability Layer - Knowledge Engine</h3>
+<p><span dir="">The Semantic Interoperability Layer (SIL) is the main component of the InterConnect Interoperability Framework. It is implemented as a distributed middleware responsible for facilitating secure and trusted semantic and syntactic interoperability between digital systems.</span></p>
+<p><span dir="">Central to the design of the Knowledge Engine is the concept of a <strong>Knowledge Base (KB)</strong>. A KB is a logical unit where knowledge flows to and/or from. These KBs can be anything like apps, services or existing databases and their nature depends on the use case that is being implemented. Also, the size of a KB is flexible, it can represent a single device or a whole platform with multiple devices and services.</span></p>
+<p><span dir="">Each KB instantiates a <strong>Smart Connector (SC)</strong> which allows it to register its capabilities and exchange data with other KBs connected to the <strong>Knowledge Network (KN)</strong>. The SC is the generic software component that does all the heavy lifting within the Knowledge Engine. Each SC registers itself in a <strong>Knowledge Directory (KD)</strong> with a description of the capabilities that it wants to make available to other SCs. These KB capabilities supported by the SC are called <strong>Knowledge Interactions (KI)</strong>. Each KI is a capability description of the KB and each KB has one or more KIs. There are four types of KIs: <strong>Ask, Answer, Post and React</strong>. Both the Ask/Answer and Post/React are opposites of each other where the Post and Ask Knowledge Interactions represent the capability of the KB proactively posting or asking data to/from the KN. While the React and Answer KIs represent the capability of the KB reactively reacting to or answering a question from a Post or Ask, respectively.</span></p>
+<p><span dir="">A KI also contains one or two <strong>graph patterns</strong> (depending on its type) that uses the terminology from a common ontology to describe the actual type of data that the KB produces or consumes. The Ask and Answer KI expects a single graph pattern, while the Post and React require a single argument graph pattern, but optionally allow a result graph pattern as well. These graph patterns use a subset of the </span><a href="https://www.w3.org/TR/rdf-sparql-query/#BasicGraphPatterns"><span dir="">SPARQL syntax</span></a><span dir=""> and an example looks like this:</span></p>
+<p><span dir=""><em>?mm rdf:type saref:Measurement .</em></span></p>
+<p><span dir=""><em>?mm ex:hasValueInCelcius ?v .</em></span></p>
+<p><span dir="">This graph pattern could be used in combination with the Post KI for a sensor KB that regularly publishes measurements of the temperature in degrees Celsius. These types of KIs together with the graph patterns cover most data exchange scenarios necessary for realizing the InterConnect pilots. After a KB has register its capabilities using KIs, the data exchange starts depending on their types.</span></p>
+<ul>
+<li><span dir="">In case of an <strong>Ask KI</strong>, the KB is expected to proactive trigger the Smart Connector to ask the registered question optionally providing bindings for the variables in its graph pattern. Any KB that can answer such questions will be involved by the SC.</span></li>
+<li><span dir="">In case of an <strong>Answer KI</strong>, the KB will be contacted by its SC whenever another KB asks the type of data it can provide.</span></li>
+<li><span dir="">In case of a <strong>Post KI</strong>, the KB can post data to its SC whenever it sees fit. Any KB with compatible KIs will get a chance to react to the publication of data.</span></li>
+<li><span dir="">In case of a <strong>React KI</strong>, the KB will be contacted by its SC whenever another KB posts data to which it wants to react.</span></li>
+</ul>
+<p><span dir="">In short, a SC of KB A will involve any other KB B that has compatible capabilities with any of the capabilities of KB A. In the front of semantic reasoning the Knowledge Engine supports two approaches for checking KI compatibility and executing knowledge discovery and exchange:</span></p>
+<ul>
+<li><strong><span dir="">Graph pattern matcher</span></strong><span dir=""> – this is approach where KIs will execute knowledge exchange only if the graph patterns completely match. This approach ensures high speed knowledge exchanges.</span></li>
+<li><strong><span dir="">Semantic reasoner</span></strong><span dir=""> – this approach will ensure knowledge exchange through KIs with graph patterns that do not necessarily match completely. Partial matching is enabled and with it, new knowledge inference is possible in a wide Knowledge Network. The semantic reasoner is slower than the matcher, but it provides more flexibility in defining graph patterns for KBs.</span></li>
+</ul>
+<p><span dir="">The Knowledge Engine Runtime comprises a set of Smart Connectors and internal interfaces needed for facilitating KIs between KBs. This KE Runtime can be deployed on different system levels: on level of single service runtime, on a level of one digital platform, shared among multiple services and digital platforms (e.g. on a pilot level) and on a global/project level. This flexibility in deploying KE Runtime constitutes the distributed nature of the Interoperability Framework.</span></p>
+<p><em>Knowledge Engine as a distributed knowledge network:</em></p>
+<p><img alt="image" src="uploads/18db3fa98f813a8c38e1fde58dd0af1c/image.png" /></p>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/knowledge-engine/-/tree/main/docs">Knowledge Engine Documentation</a></p>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/knowledge-engine/-/blob/main/openapi-sc.yaml">Knowledge Engine OpenAPI specification of developer REST API</a></p>
+<h3 id="generic-adapter">Generic Adapter</h3>
+<p>In the InterConnect project we define the following adapters:</p>
+<ul>
+<li><strong><span dir="">Service Specific Adapter (SSA)</span></strong><span dir=""> – configuration/mapping point between legacy interface and data model of the service and the InterConnect SIL.</span></li>
+<li><strong><span dir="">Generic Adapter (GA)</span></strong><span dir=""> – a generic software component that provides communication gateway for secure and trusted integration into a wider Interoperability Framework instance.</span></li>
+<li><strong><span dir="">InterConnect Service Adapter</span></strong><span dir=""> – a combination of SSA and GA representing a semantically interoperable service in a wider InterConnect Interoperability Framework instance (e.g. within and between project pilots).</span></li>
+</ul>
+<p><em>Adapter terminology used in InterConnect:</em></p>
+<p><img alt="image" src="uploads/b8d474a41171d068a74f3e510eddcc94/image.png" /></p>
+<p><span dir="">The Generic Adapter (GA) is a software gateway for secure and trusted communication between a service and a wider Interoperability Framework instance</span>. <span dir="">The GA enables:</span></p>
+<ul>
+<li><span dir="">A unified and secured communication interface using REST API;</span></li>
+<li><span dir="">Authentication and authorization point for IF access;</span></li>
+<li><span dir="">Deployment flexibility – Docker, with and without Knowledge Engine Runtime;</span></li>
+<li><span dir="">Automates registration of knowledge base and common knowledge interactions on boot.</span></li>
+</ul>
+<p><em>High level architecture of the Generic Adapter:</em></p>
+<p><img alt="image" src="uploads/8a736d893762e952995b23bf8bb9407b/image.png" /></p>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/generic-adapter">Generic adapter source code</a></p>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/generic-adapter/-/blob/master/generic-adapter-rest-OpenAPI.yaml">Generic adapter REST API docs</a></p>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/generic-adapter/-/blob/master/docs/00_home.md">Generic adapter support documentation</a></p>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/generic-adapter/container_registry/313">Generic adapter Docker containers</a></p>
+<h3 id="p2p-marketplace-enablers">P2P Marketplace Enablers</h3>
+<p><span dir="">The P2P marketplace enablers include:</span></p>
+<ul>
+<li><strong><span dir="">Hyperledger Fabric blockchain configurations</span></strong><span dir=""> for different types of P2P marketplaces (different hierarchies, consortium organizations, stakeholders, nodes and channels).</span></li>
+<li><strong><span dir="">Smart contract templates</span></strong><span dir=""> for different types of orders and transactions to be featured in the marketplace. Smart contracts will include APIs for end user GUIs (web application) and APIs for services for automated P2P trading.</span></li>
+<li><span dir="">Smart contract templates for generating reports and audits about status of the marketplace and executed transactions - in line with regulatory and business requirements.</span></li>
+<li><span dir="">Smart contract implemented as semantic interoperability adapter for interfacing with the wider InterConnect Interoperability Framework.</span></li>
+<li><span dir="">Smart contracts for registering and identifying key actors and resources constituting P2P marketplaces.</span></li>
+<li><span dir="">Smart Contracts for integration of interoperable services which write data to or read data from the Hyperledger Fabric. This ensures that the P2P marketplaces are integrated with a wider instance of Interoperability Framework.</span></li>
+<li><strong><span dir="">Configurable order matching engine</span></strong><span dir=""> for managing regulatory constraints, transaction priorities and conflict resolutions. The ordering engine also chains the smart contract calls performed by services participating in the P2P marketplace.</span></li>
+<li><strong><span dir="">White-labelled web application</span></strong><span dir=""> for providing interface through which end users place orders. The web application can be instantiated and adapted to specific needs of a community establishing the P2P marketplace.</span></li>
+</ul>
+<p><span dir="">The Interoperability Framework provides these P2P marketplace enablers as part of its toolbox. The enablers are provided as deployable containers that allow pilot owners and integrators to deploy and fully manage P2P marketplace instances. The established P2P marketplaces are in full control and under jurisdiction (regulatory, market wise, data privacy protection) of the integrators.</span></p>
+<p><em>InterConnect P2P marketplace enablers:</em></p>
+<p><img alt="image" src="uploads/44add4a2118f84fd561462d142c4df37/image.png" /></p>
+<div>
+
+<span dir="">The P2P marketplace can be an energy marketplace or a marketplace for data transactions required for the realization of the community-based use cases. In the scope of the Task 5.4 the following P2P marketplace configurations are implemented and made available for the pilots and 3<sup>rd</sup> party integrators:</span>
+
+* **<span dir="">Generic P2P marketplace configuration</span>**<span dir=""> that can be easily adapted to specific use cases in energy and IoT domains. This implementation also features a web application for demonstration purposes.</span>
+* **<span dir="">Specialized configurations</span>**<span dir=""> based on participating pilots (each having specific set of requirements for integration of P2P marketplaces into instances of the Interoperability Framework):</span>
+  * **<span dir="">Dutch pilot</span>**<span dir=""> - IoT data exchange with loyalty tokens realized through P2P marketplace.</span>
+  * **<span dir="">Portuguese pilot</span>**<span dir=""> - flexibility and energy profile trading/aggregation in communities through P2P marketplace instance.</span>
+  * **<span dir="">Belgium pilot from Think E! and VUB</span>**<span dir=""> - P2P energy trading within and between energy communities through instantiated P2P marketplace.</span>
+
+</div>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/p2p-marketplace">P2P marketplace enablers repository</a></p>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/p2p-marketplace/-/tree/p2p-sample-marketplace">Generic P2P marketplace configuration, code and documentation</a></p>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/p2p-marketplace/-/tree/p2p-data-mp-activities-mg">Dutch pilot (P2P marketplace for IoT data) configuration, code and documentation</a></p>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/p2p-marketplace/-/tree/p2p-flex-sharing">Portuguese pilot (flexibility and energy profile trading/aggregation in communities) configuration, code and documentation</a></p>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/p2p-marketplace/-/tree/p2p-energy-trading">Belgian pilot (P2P energy trading within and between energy communities) configuration, code and documentation</a></p>
+<h2 id="service-specific-adapters">Service Specific Adapters</h2>
+<p><span dir="">The Service Specific Adapter (SSA) is a custom software component developed and configured for a specific service/Knowledge Base. Each service provider goes through a process of implementing SSA. The main functionalities of the SSA are:</span></p>
+<ul>
+<li><span dir="">SSA Service endpoint functionality – includes all necessary functionality to interact with the service via the offered (legacy) service API.</span></li>
+<li><span dir="">SSA mapping functionality – performs mapping of parameter bindings (semantic interface) to service API parameters and vice versa. Can be one-to-one mapping or more complex logic to combine for instance several API calls to complete one binding set.</span></li>
+<li><span dir="">SSA GA endpoint functionality:</span></li>
+<li><span dir="">Register the Generic Adapter instance for this service.</span></li>
+<li><span dir="">Register the Knowledge Base - this creates a smart connector.</span></li>
+<li><span dir="">Register the Knowledge Interactions (Graph Patterns).</span></li>
+<li><span dir="">Offer Knowledge Interaction execution.</span></li>
+</ul>
+<p><em>Knowledge Base with its SSA and GA:</em></p>
+<p><img alt="image" src="uploads/43d1371e9b1d92df29c7b8cd16fd6f7f/image.png" /></p>
+<p><em>Interoperability chain and message sequence chart between two interoperable services:</em></p>
+<p><img alt="image" src="uploads/4a86df7bc7a04907ee82a549b8e9cbe4/image.png" /></p>
+<p><a href="https://gitlab.inesctec.pt/interconnect-public/service-specifc-adapters/-/blob/main/docs/sarefisation_process.md">Service SAREFization process guidelines.</a></p>
+<h2 id="supporting-tools">Supporting Tools</h2>
+<p>Two supporting tools allow complementary action to assess pre-testing and visualisation. </p>
+<h3 id="ssa-test-tool">SSA Test Tool:</h3>
+<p>The SSA Test Tool is integrated within the Generic adapter's control panel. It is directly accessible via the Generic Adapter local address. 
+Refer to this link for more detailed information.</p>
+<h3 id="graph-pattern-visualiser">Graph Pattern Visualiser.</h3>
+<p>The Graph pattern visualiser tool is available here. It allows to create a graphical representation of a graph pattern. It allows to identify all the nodes and connection among nodes of the pattern, leading to a better understanding of the data representation. Moreover, it also allows to find and solve loops in the data representation. </p>
+<h2 id="tutorials">Tutorials</h2>
+<p><strong>Semantic Interoperability Framework: Overview</strong>
+<a href="https://youtu.be/sSXDMCeIw2o"><img alt="Semantic Interoperability Framework: Overview" src="uploads/1d9a6f30f78b203c7bbf571209b9126f/SIF.png" /></a></p>
+<p><strong>Semantic Interoperability Framework: Technical Integration Overview</strong>
+<a href="https://youtu.be/-GCfEj-FAkUo"><img alt="Semantic Interoperability Framework: Technical Integration Overview" src="uploads/0c04a745d85eaa1dc50de2ed636f6e4c/Tut.png" /></a></p>
+<p><strong>SAREFization process: Graph Pattern Creation - part 1</strong>
+<a href="https://www.youtube.com/watch?v=FM30JOFQDLo&amp;ab_channel=InterconnectProject"><img alt="SAREFization process: Graph Pattern Creation - part 1" src="uploads/2520713fe34c7c90065a52100d0e125c/Screenshot_2022-07-06_at_16.47.42.png" /></a></p>
+<p><strong>SAREFization process: Graph Pattern Creation - part 2</strong>
+<a href="https://www.youtube.com/watch?v=l_QI7zoTazQ&amp;ab_channel=InterconnectProject"><img alt="SAREFization process: Graph Pattern Creation - part 2" src="uploads/2520713fe34c7c90065a52100d0e125c/Screenshot_2022-07-06_at_16.47.42.png" /></a></p>
+<p><strong>SAREFization process: Create an SSA - part 1</strong>
+<a href="https://www.youtube.com/watch?v=GOUCN0KKpuo&amp;ab_channel=InterconnectProject"><img alt="SAREFization process: Create an SSA - part 1" src="uploads/94b4c74edce550912d978841cbb717ea/Screenshot_2022-07-06_at_16.46.59.png" /></a></p>
+<p><strong>SAREFization process: Create an SSA - part 2</strong>
+<a href="https://www.youtube.com/watch?v=W7ywyJSNEGs&amp;ab_channel=InterconnectProject"><img alt="SAREFization process: Create an SSA - part 2" src="uploads/94b4c74edce550912d978841cbb717ea/Screenshot_2022-07-06_at_16.46.59.png" /></a></p>
+<h1 id="useful-links">Useful links</h1>
+<p><a href="https://interconnectproject.eu/">InterConnect project website</a></p>
+<p><a href="https://www.youtube.com/channel/UCGMdrFeqQyu88e0Liw_izRQ">InterConnect YouTube channel</a></p>
+<p><a href="https://www.linkedin.com/company/interconnect-project/">InterConnect LinkedIn page</a></p>
+<p><a href="https://twitter.com/interconnectprj">InterConnect on Twitter</a></p>
+<p><a href="https://www.facebook.com/InterConnectPrj/">InterConnect on Facebook</a></p>
+<p><a href="https://spaces.fundingbox.com/c/interconnect">InterConnect Community on FundingBox</a></p>
+<h1 id="interconnect-project-prototypes">InterConnect Project Prototypes</h1>
+<p><a href="https://gitlab.inesctec.pt/groups/interconnect-public/-/wikis/Project-Prototypes">InterConnect Prototypes</a></p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme_extra.js" defer></script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.4.2
+Build Date UTC : 2023-01-19 13:18:03.166969+00:00
+-->

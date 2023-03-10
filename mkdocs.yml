@@ -1,0 +1,19 @@
+site_name: InterConnect
+site_url: https://example.com
+nav:
+    - Home: index.md
+    - Ontology:
+        - ontology\ontology.md
+        - Datapoint, Timeseries and Message: ontology\ic-data.md
+        - Forecast: ontology\ic-fc.md
+        - Incentive Table: ontology\ic-inc.md
+        - Power Limit: ontology\ic-pwlm.md
+        - User: ontology\ic-user.md  
+        - Flexibility: ontology\ic-flex.md
+        - Units of Measure: ontology\ic-uom.md
+        - Topology: ontology\ic-tplg.md
+        - Device and sensor: ontology\ic-dev.md
+        - S2 standard: ontology\ic-s2.md
+    - Service Store: serviceStore\serviceStore.md
+  
+theme: readthedocs
